@@ -1,0 +1,88 @@
+body {
+  background-color: #FFA1C9;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Love Light', cursive;
+  font-size: 4rem;
+  color: #E60965;
+  margin: 5% auto 2%;
+}
+
+label {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #F94892;
+  display: block;
+}
+
+input {
+  color: #E60965;
+  font-family: 'Neonderthaw', cursive;
+  font-size: 2rem;
+  height: 3rem;
+  width: 18rem;
+  text-align: center;
+  background-color: #FBE5E5;
+  border-style: solid;
+  border-color: #E60965;
+  border-radius: 5px;
+}
+
+button {
+  width: 17rem;
+  height: 3.5rem;
+}
+
+.firstName {
+  display: inline-block;
+  margin: 3%;
+}
+
+.secondName {
+  display: inline-block;
+  margin: 3%;
+}
+.calculate {
+  display: block;
+  margin: 3% auto;
+}
+
+.btn {
+  background: #E60965;
+  background-image: -webkit-linear-gradient(top, #E60965, #F94892);
+  background-image: -moz-linear-gradient(top, #E60965, #F94892);
+  background-image: -ms-linear-gradient(top, #E60965, #F94892);
+  background-image: -o-linear-gradient(top, #E60965, #F94892);
+  background-image: linear-gradient(to bottom, #E60965, #F94892);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  border-style: solid;
+  -webkit-box-shadow: 2px 4px 6px #666666;
+  -moz-box-shadow: 2px 4px 6px #666666;
+  box-shadow: 2px 4px 6px #666666;
+  font-family: 'Love Ya Like A Sister', cursive;
+  color: #FBE5E5;
+  font-size: 27px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F94892;
+  background-image: -webkit-linear-gradient(top, #F94892, #FBE5E5);
+  background-image: -moz-linear-gradient(top, #F94892, #FBE5E5);
+  background-image: -ms-linear-gradient(top, #F94892, #FBE5E5);
+  background-image: -o-linear-gradient(top, #F94892, #FBE5E5);
+  background-image: linear-gradient(to bottom, #F94892, #FBE5E5);
+  text-decoration: none;
+}
+
+.pressed {
+  opacity: 5px;
+  border-style: none;
+}
